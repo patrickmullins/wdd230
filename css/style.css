@@ -29,7 +29,7 @@ body {
     color: whitesmoke;
   }
   
-  header img {
+  .profilePic {
     width: 175px;
     height: 175px;
     float: left;
