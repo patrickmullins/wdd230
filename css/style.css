@@ -24,7 +24,7 @@ body {
   }
   
   header, footer, footer a {
-    text-align: center;
+    text-align: right;
     background-color: rgb(46, 139, 127);
     color: whitesmoke;
   }
