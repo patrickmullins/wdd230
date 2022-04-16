@@ -31,8 +31,8 @@ body {
   
   header img {
     width: 175px;
-    height: auto;
-    float: right;
+    height: 175px;
+    float: left;
   }
   
   footer {
