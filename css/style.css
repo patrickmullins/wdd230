@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body { 
     font-size: 16px; 
@@ -8,7 +13,7 @@ body {
   
   h1 {
     font-size: 2em;
-    color: ghostwhite;
+    color: rgb(0, 0, 0);
   }
   
   h2 {
@@ -18,26 +23,25 @@ body {
   }
   
   header, main, footer {
-    margin: 1.25rem auto;
-    padding: .5rem;
-    max-width: 50em;
+    max-width: 700px;
+    margin: 0 auto;
   }
   
-  header, footer, footer a {
-    text-align: center;
-    background-color: rgb(46, 139, 127);
-    color: whitesmoke;
+  header {
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: .5rem;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
   }
- 
-    img {
-        max-width: 180px;
-        max-height: 180px;
-        border-radius: 6px;
-        box-shadow: 5px 5px  #13121244;
-        margin-left: auto;
-        margin-right: 80%;
-        width: 40%
-    }
+
+  header picture {
+    width: 100%;
+    height: auto;
+  }
+  
   
   footer {
     font-size: 1em;
