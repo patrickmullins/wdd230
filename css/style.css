@@ -29,20 +29,19 @@ body {
   
   header {
     margin: 1rem auto;
-    border: 1px solid #bbb;
+    border: 1px solid rgb(255, 255, 255);
     padding: .5rem;
-    background-color: #eee;
+    background-color: rgb(235, 235, 235);
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
   }
 
-  header picture {
-    width: 100%;
+  header img {
+    width: 75%;
     height: auto;
   }
-  
-  
+    
   footer {
     font-size: 1em;
   }
