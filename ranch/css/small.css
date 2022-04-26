@@ -1,0 +1,12 @@
+* { -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+main{
+    padding: 1rem 2%;
+    display: block;
+}
+
+main h1{
+    color: black;
+}
