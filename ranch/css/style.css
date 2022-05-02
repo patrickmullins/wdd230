@@ -35,7 +35,7 @@ body {
     background-color: rgb(165, 158, 158);
     display: grid;
     grid-template-columns: 200px 1fr;
-    align-items: center;
+    align-items: left;
   }
 
   img {
