@@ -2,7 +2,7 @@
 nav {background-color: #111;}
 nav ul{margin: 0; padding: 0;}
 nav li {list-style-type: none;}
-nav li.active {background-color: black;}
+nav li.active {background-color: gray;}
 nav a {
     display: block;
     padding: .8rem 0;
@@ -12,11 +12,30 @@ nav a {
 }
 nav a:hover {background-color: #444;}
 
+header{
+    background-color:#d3d3d3;
+    padding: 1rem 2%;
+    width: 100%
+}
+header h1{
+    margin: 0;
+}
+
+header h2{
+    margin: 0;
+}
+
 main {
     padding: 1rem 2%;
     display: block;   
 }
-main h1 {color: #17a834}
+
+main h1 {color: #000000}
+
+body {
+    font-family: verdana;
+    font-size: 16px;
+}
 
 main figure img {width: 100%;}
 main figure{
