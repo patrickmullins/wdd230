@@ -13,7 +13,7 @@ nav a {
 nav a:hover {background-color: #444;}
 
 header{
-    background-color:#d3d3d3;
+    background-color:gray;
     padding: 1rem 2%;
     width: 100%
 }
