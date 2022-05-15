@@ -1,0 +1,47 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    header, nav, main, footer {
+        min-width: 64rem;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+.main-header{
+    font-size: 2.5em;
+    display: inline;
+}
+
+/*----------- NAVIGATION --------------*/
+nav ul {
+    display: grid;
+    list-style-type: none;
+   }
+
+
+nav ul li a {
+    padding: .5rem 1rem;
+    
+}
+#hamburgerBtn span:nth-child(1) {display: none;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+
+/*----------- MAIN --------------*/
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p, li, button, img {
+    font-size: 1em;
+}
+
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */

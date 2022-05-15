@@ -1,0 +1,63 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+header {
+    align-items: center;
+    padding: .5rem 2%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 75px auto;
+}
+header div{margin-left: 10px;}
+header h1 {margin: 0;}
+header h2 {margin-right: 0%; font-weight: normal;}
+
+/*----------- NAVIGATION --------------*/
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #eee;
+}
+nav ul {
+ display: none;
+ list-style-type: none;
+}
+nav ul.open{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .5rem 2rem;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+/*----------- MAIN --------------*/
+div.pageCont{
+    clear: both;
+    column-count: 2;
+    column-rule: 1px solid #ddd;
+    }
+
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
