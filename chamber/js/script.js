@@ -6,6 +6,7 @@ const monthDay = date.getDate();
 const weekDay = date.getDay();
 
 const yearFoot = document.querySelector(".one").textContent = new Date().getFullYear();
+document.querySelector(".two").innerHTML = "Last Updated: " + document.lastModified;
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
     document.getElementById("hamburgerBtn").classList.toggle("open");
