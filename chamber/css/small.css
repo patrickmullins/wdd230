@@ -25,6 +25,9 @@ h1, h2, h4, h5, h6 {
 .home-header {
     text-align: center;
 }
+#msg-box {
+    text-align: center;
+}
 .hamburger-img {
     width: 20px;
 }
