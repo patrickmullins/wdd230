@@ -1,63 +1,104 @@
-/* 35em is also 560px (if basefont is 16px) */
-@media only screen and (min-width: 35rem) {
-
-
-/*----------- BODY --------------*/
-
-
-
-/*----------- HEADER --------------*/
-
-header {
-    align-items: center;
-    padding: .5rem 2%;
-    background-color: white;
-    display: grid;
-    grid-template-columns: 75px auto;
-}
-header div{margin-left: 10px;}
-header h1 {margin: 0;}
-header h2 {margin-right: 0%; font-weight: normal;}
-
-/*----------- NAVIGATION --------------*/
-nav button {
-    margin: .2rem 2vw;
-    background-color: transparent;
-    border: none;
-    font-size: 2rem;
-}
-
-nav {
-    background-color: #eee;
-}
-nav ul {
- display: none;
- list-style-type: none;
-}
-nav ul.open{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: block;
-}
-
-    nav ul li a{
-        border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
-        padding: .5rem 2rem;}
-
-#hamburgerBtn span:nth-child(1) {display: block;}
-#hamburgerBtn span:nth-child(2) {display: none;}
-#hamburgerBtn.open span:nth-child(1) {display: none;}
-#hamburgerBtn.open span:nth-child(2) {display: block;}
-/*----------- MAIN --------------*/
-div.pageCont{
-    clear: both;
-    column-count: 2;
-    column-rule: 1px solid #ddd;
+/* Media query for medium+ views */
+@media only screen and (min-width: 800px) {
+    .welcome, .events-title, .weather-title, .temp .weather-description,
+        .spotlight-title-1, .spotlight-title-2, .spotlight-title-3, .new-title {
+        font-size: 1.7em;
     }
-
-
-/*----------- FOOTER --------------*/
+    .join-label, .required-desc, .join-submit-btn {
+        font-size: 1.3em;
+    }
+    p, li, a, button, img {
+        font-size: 1.6em;
+    }
+    /* Header */
+    header {
+        align-items: center;
+    }
+    .social-img {
+        width: 40px;
+    }
+    .logo {
+        height: auto;
+        width: auto;
+    }
+    .main-header {
+        font-size: 2.2em;
+    }
+    .main-subheader {
+        font-size: 1.6em;
+        margin: auto;
+        width: fit-content;
+    }
+    .hamburger-img {
+        width: 35px;
+    }
+    /* Main */
+    #home-main {
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+    }
+    #weather {
+        grid-column: 4/5;
+        grid-row: 5/6;
+    }
+    #join {
+        grid-column: 1/5;
+        grid-row: 4/5;  
+        display: block;
+        text-align: center;
+        /* border: solid black; */
+    }
+    #hero {
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+    #news {
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
+    #events {
+        grid-column: 1/4;
+        grid-row: 5/6;
+        display: block;
+        align-items: center;
+    }
+    #company-spotlights {
+        grid-column: 1/5;
+        grid-row: 3/4;
+    }
+    .hero-img-1, .hero-img-1-small, .hero-img-1-large {
+        display: none;
+    }       
+    .hero-img-2 {
+        display: block;
+    }
+    .call-to-action {
+        bottom: 25px;
+        left: 25px;
+        font-size: 2em;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .join-btn {
+        padding: 20px;
+        width: 70%;
+    }
+    /* Join */
+    .hmemb {
+        font-size: 1.6em;
+    }
+    /* Directory */
+    .directors-contacts {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
-} /* end of media query */
+    .bus-link {
+        font-size: 1.1em;
+    }
+    .bus-cards-box {
+        grid-template-columns: 1fr 1fr; 
+    }
+    /* Contact */
+    .inquiry-form {
+        font-size: 1.5em;
+    }
+}
