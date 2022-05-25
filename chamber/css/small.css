@@ -23,8 +23,20 @@ h1, h2, h4, h5, h6 {
     margin-bottom: 10px;
 }
 .home-header {
-    text-align: center;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
 }
+.headings{
+    grid-row: 1/2;
+    display: flex;
+    align-items: left;
+	flex-direction: column;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
 #msg-box {
     text-align: center;
 }
@@ -34,13 +46,19 @@ h1, h2, h4, h5, h6 {
 .link-list {
     margin: 0;
 }
-.logo {
+.logo-header-box {
+    grid-row: 1/2;
+    width: 7em;
+    height: 7em;
+    display:flex;
+    align-items: center;
+    margin-left: 10px;
     width: 64px;
 }
 .main-header {
-    text-align: center;
     font-size: 1.3em;
 }
+
 .main-subheader {
     font-size: 1em;
 }
