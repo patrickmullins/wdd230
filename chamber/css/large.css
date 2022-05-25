@@ -88,8 +88,11 @@
             grid-area: 3/2/4/6;
         }
         #company-spotlights {
+            display: grid;
             margin-right: 0;
             grid-area: 1/6/4/7;
+            grid-gap: 0px;
+            padding-left: 0;
         }
         .spotlight-1, .spotlight-2, .spotlight-3 {
             margin: auto;

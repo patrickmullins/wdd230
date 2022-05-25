@@ -59,11 +59,13 @@
         grid-column: 1/4;
         grid-row: 5/6;
         display: block;
-        align-items: center;
     }
-    #company-spotlights {
-        grid-column: 1/5;
-        grid-row: 3/4;
+   #company-spotlights {
+        display: inline-flex;
+        grid-column: 1/7;
+        padding-left: 10%;
+        grid-gap: 80px;
+        grid-row: 3/3;
     }
     .hero-img-1, .hero-img-1-small, .hero-img-1-large {
         display: none;
@@ -90,7 +92,36 @@
     .directors-contacts {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+    .home-footer{
+        display: inline-grid;
+        grid-template-columns: 1fr 5fr 2fr;
+    }
+    .contact{
+        grid-column: 3;
+        grid-row: 1;
+        padding-top: 20px;
+        text-align: right;
+     }
+     .address{
+         grid-column: 2;
+         grid-row: 1;
+         padding-top: 50px;
+     }
+     .footer-headline{
+         grid-column: 2;
+         padding-bottom: 10px;
+         grid-row: 1;
+     }
+    .bottom {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .mappy{
+        grid-column: 3;
+        grid-row: 1;
+        padding-top: 150px;
+    }
     .bus-link {
         font-size: 1.1em;
     }
