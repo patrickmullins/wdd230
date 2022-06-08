@@ -36,10 +36,3 @@ let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
 'August', 'September', 'October','November','December'];
 let daysOfWeek = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 dateElement.innerHTML = daysOfWeek[weekDay] + ', ' + monthDay + ' ' + months[month] + ' ' + year;
-
-// Send to join page upon clicking "Join the Chamber" button
-const joinBtn = document.querySelector('.call-to-action');
-joinBtn.onclick = () => {
-    window.open('https://gib-student.github.io/wdd230-Main/chamber/join.html',
-    '_blank');
-};
