@@ -1,6 +1,6 @@
 // Open thankyou.html when user submits
 let sayThankYou = () => {
-    window.open('https://patrickmullins.github.io/wdd230/chamber/thankyou.html',
+    window.open('https://patrickmullins.github.io/wdd230/chamber/thankYou.html',
     '_blank');
 };
 
