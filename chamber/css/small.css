@@ -350,6 +350,7 @@ textarea {
 }
 .join-main {
     margin-top: 15px;
+    background-color: #5899e2;
 }
 .join-main hr {
     border: .5px solid black;

@@ -37,22 +37,129 @@
     <div id="msg-box">
         <p id="msg"> </p>
         </div>
-    
-    
-        
-        <div id='news' class="main-box">
-            <h3 class='news-title'>News Release</h3>
-            <img class="weather-img" src="images/weather.png" alt="Weather image">
-                    <h3 class="temp">this is a test text 1</h3>
-            <img class="weather-img" src="images/weather.png" alt="Weather image">
-                    <h3 class="temp">this is a test text 2</h3>
-            <img class="weather-img" src="images/weather.png" alt="Weather image">
-                    <h3 class="temp">this is a test text 3</h3>    
-            <img data-src="images/weather.png" alt="Weather image">
-                    <h3 class="temp">this is a test text 4</h3>    
-            <img class="weather-img" src="images/weather.png" alt="Weather image">
-                    <h3 class="temp">this is a test text 5</h3>        
-        </div>
+       <main class="join-main">
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label class="join-label join-label" for="fname">
+                            First name:<span class="required">*</span>
+                        </label>
+                    </td>
+                    <td>
+                        <input class="fname-input" type="text" name="fname"
+                        id="fname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="join-label join-label" for="lname">
+                            Last name:<span class="required">*</span>
+                        </label>
+                    </td>
+                    <td>
+                        <input class="lname-input" type="text" name="lname"
+                        id="lname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="join-label join-label" for="pos-title">
+                            Title:
+                        </label>
+                    </td>
+                    <td>
+                        <input class="title-input" type="text" name="pos-title"
+                        pattern="[a-z-\s]{7,}" id="pos-title">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="join-label join-label" for="email">
+                            Email address:<span class="required">*</span>
+                        </label>
+                    </td>
+                    <td>
+                        <input class="email-input" type="email"
+                        name="email" placeholder="johndoe@outlook.net"
+                        id="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="join-label join-label" for="cell">
+                            Cell phone number:<span class="required">*</span>
+                        </label>
+                    </td>
+                    <td>
+                        <input class="cell-input" type="tel" name="cell"
+                        id="cell">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="join-label join-label" for="membership">
+                            Membership level:<span class="required">*</span>
+                        </label>
+                    </td>
+                    <td>
+                        <select class="mem-lvl-select join-label" name="membership"
+                            id="membership">
+                            <option value="bronze">Bronze</option>
+                            <option value="silver">Silver</option>
+                            <option value="gold">Gold</option>
+                            <option value="np">Non-profit</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="join-label join-label" for="desc">
+                            Business description:
+                        </label>
+                    </td>
+                    <td>
+                        <textarea class="desc" name="desc" id="desc"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <input class="time-loaded" name="time-loaded" type="hidden"
+            id="time-loaded">
+            <button type="submit" class="join-submit-btn">
+                Submit information
+            </button>
+            <p class="required-desc"><span class="required">*</span> <b>Required fields</b></p>
+        </form>
+        <hr>
+        <aside>
+            <h4 class="hmemb">Membership options</h4>
+            <p>NP Membership</p>
+            <ul>
+                <li>For non profit organizations and there is no fee</li>
+            </ul>
+            <p>Bronze Membership</p>
+            <ul>
+                <li>15% discount on events</li>
+                <li>10% discount on advertising</li>
+                <li>Fee of $50/month</li>
+            </ul>
+            <p>Silver Membership</p>
+            <ul>
+                <li>25% discount on events</li>
+                <li>15% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>Fee of $100/month</li>
+            </ul>
+            <p>Gold Membership</p>
+            <ul>
+                <li>50% discount on events</li>
+                <li>50% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>5 free featured ads per year</li>
+                <li>1 free training per quarter</li>
+                <li>Fee of $250/month</li>
+            </ul>
+        </aside>
     </main>
     <footer class="home-footer">
         <img id='logo-footer' class="logo" src='images/wakanda.png'
@@ -73,6 +180,6 @@
             </div>
         </footer>
         <script src='js/script.js' defer></script>
-        <script src="js/lazyLoad.js" defer></script>
+        <script src="js/join.js" defer></script>
     </body>
     </html>
