@@ -36,6 +36,7 @@
     #home-main {
         grid-template-columns: 2fr 1fr 1fr 2fr;
     }
+    
     #weather {
         grid-column: 4/5;
         grid-row: 5/6;
@@ -47,10 +48,14 @@
         text-align: center;
         /* border: solid black; */
     }
+    img:hover {
+        transform: scaleX(-1);
+      }
     #hero {
         grid-column: 1/5;
         grid-row: 1/2;
     }
+    
     #news {
         grid-column: 1/5;
         grid-row: 2/3;
