@@ -49,7 +49,12 @@
         /* border: solid black; */
     }
     img:hover {
-        transform: scaleX(-1);
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+        box-shadow: 10px 10px 5px #888888;
       }
     #hero {
         grid-column: 1/5;

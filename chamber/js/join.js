@@ -1,4 +1,19 @@
-// Open thankyou.html when user submits
+const date = new Date();
+const month = date.getMonth();
+const monthDay  = date.getDate();
+const weekDay       = date.getDay();
+const year      = date.getFullYear();
+const dateTime = {
+    "month": month, 
+    "date": monthDay, 
+    "year": year,
+    "hours": date.getHours(),
+    "minutes": date.getMinutes(),
+    "seconds": date.getSeconds()
+};
+document.querySelector('.time-loaded').value = dateTime;
+
+
 let sayThankYou = () => {
     window.open('https://patrickmullins.github.io/wdd230/chamber/thankYou.html',
     '_blank');
@@ -7,10 +22,16 @@ let sayThankYou = () => {
 document.querySelector('.join-submit-btn').addEventListener('click', 
     sayThankYou);
 
-// To solve the mid resizing issue with responsive class on
 window.onresize = () => {
     if (window.innerWidth > 760)
     {
         mainNav.classList.remove()
     }
 };
+
+let dateElement = document.querySelector('#date');
+// gets current day / month
+let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
+'August', 'September', 'October','November','December'];
+let daysOfWeek = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+dateElement.innerHTML = daysOfWeek[weekDay] + ', ' + monthDay + ' ' + months[month] + ' ' + year;

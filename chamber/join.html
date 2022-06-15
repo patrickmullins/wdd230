@@ -32,11 +32,8 @@
                 <li><a href='contact.html'>Contact</a></li>
             </ul>
         </nav>
-        <p id='date'>date</p>
     </div>
-    <div id="msg-box">
-        <p id="msg"> </p>
-        </div>
+    <p id='date'>date</p>
        <main class="join-main">
         <form>
             <table>
@@ -65,7 +62,7 @@
                 <tr>
                     <td>
                         <label class="join-label join-label" for="pos-title">
-                            Title:
+                            Business position title:
                         </label>
                     </td>
                     <td>
@@ -94,6 +91,17 @@
                     <td>
                         <input class="cell-input" type="tel" name="cell"
                         id="cell">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="join-label join-label" for="pos-title">
+                            Business name\title :<span class="required">*</span>
+                        </label>
+                    </td>
+                    <td>
+                        <input class="title-input" type="text" name="pos-title"
+                        pattern="[a-z-\s]{7,}" id="pos-title">
                     </td>
                 </tr>
                 <tr>
@@ -175,11 +183,10 @@
         </div>
         <hr class="footer-line">
         <div class="bottom">
-            <p id='copyright'>&copy; <span id='copyrightYear'>-</span> |
-                chamber project | Patrick Mullins | WDD 230 Project | Last Modified: <span id='modified'>-</span></p>
+            <p id='copyright'>&copy; |
+                chamber project | Patrick Mullins | WDD 230 Project </p>
             </div>
         </footer>
-        <script src='js/script.js' defer></script>
-        <script src="js/join.js" defer></script>
+        <script src="js/join.js" ></script>
     </body>
     </html>
