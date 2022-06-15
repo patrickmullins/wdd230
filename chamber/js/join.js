@@ -15,12 +15,10 @@ document.querySelector('.time-loaded').value = dateTime;
 
 
 let sayThankYou = () => {
-    window.open('https://patrickmullins.github.io/wdd230/chamber/thankYou.html',
-    '_blank');
+    window.open('https://patrickmullins.github.io/wdd230/chamber/thankYou.html');
 };
 
-document.querySelector('.join-submit-btn').addEventListener('click', 
-    sayThankYou);
+document.querySelector('.join-submit-btn').addEventListener('click', sayThankYou);
 
 window.onresize = () => {
     if (window.innerWidth > 760)
