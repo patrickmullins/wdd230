@@ -2,55 +2,49 @@
     "business1": {
       "name": "Tech Tamers",
       "address": "6678 Tri Way Dr. Wakanda 00047",
-      "phone": "(513) 229-3600",
-      "fax": "",
+      "phone": "(143) 229-3600",
       "website": "",
-      "image": "techTamer-logo.png",
+      "image": "techTamers-logo.webp",
       "membership": "bronze"
     },
     "business2": {
       "name": "Gardenity",
       "address": "9334 Union Centre Blvd West Wakanda 00048",
-      "phone": "(513) 460-6428",
-      "fax": "",
+      "phone": "(123) 460-6428",
       "website": "",
-      "image": "Gardenity-logo.png",
+      "image": "Gardenity-logo.webp",
       "membership": "silver"
     },
     "business3": {
       "name": "Maygreen Health",
-      "address": "7470 Mason Montgomery Road, Wakanda 00049",
-      "phone": "(513) 204-2000",
-      "fax": "(513) 770-4377",
+      "address": "7470 wakanda Road, Wakanda 00049",
+      "phone": "(111) 204-2000",
       "website": "",
-      "image": "maygreenHealth-logo.png",
+      "image": "maygreenHealth-logo.webp",
       "membership": "gold"
     },
     "business4": {
       "name": "Hope Givers",
       "address": "7700 University Drive West Wakanda 00048",
-      "phone": "(513) 298-3000",
-      "fax": "(513) 298-7738",
+      "phone": "(123) 298-3000",
       "website": "",
-      "image": "hopeGivers-logo.png",
-      "membership": "np"
+      "image": "hopeGivers-logo.webp",
+      "membership": "non-profit"
     },
     "business5": {
       "name": "To The Moon Financial Freedom",
       "address": "11575 Gold Coast, Wakanda 00050",
-      "phone": "(513) 831-6620",
-      "fax": "(111) 555-0000",
+      "phone": "(112) 831-6620",
       "website": "",
-      "image": "ttmff-logo.png",
+      "image": "ttmff-logo.webp",
       "membership": "gold"
     },
     "business6": {
       "name": "Fusora Foods",
       "address": "8090 Main Street Suite 250 Wakanda 00051",
-      "phone": "(513) 755-9500",
-      "fax": "513-755-9588",
+      "phone": "(111) 755-9500",
       "website": "",
-      "image": "fusoraFoods-logo.png",
+      "image": "fusoraFoods-logo.webp",
       "membership": "silver"
     },
     "business7": {
@@ -64,20 +58,18 @@
     },
     "business8": {
       "name": "Nano Know",
-      "address": "9378 Mason Montgomery Rd. #210 Wakanda 00052",
-      "phone": "(513) 486-4781",
-      "fax": "",
+      "address": "9378 Montgomery Rd. #210 Wakanda 00052",
+      "phone": "(112) 486-4781",
       "website": "",
-      "image": "nanoKnow-logo.png",
+      "image": "nanoKnow-logo.webp",
       "membership": "bronze"
     },
     "business9": {
       "name": "Dawn Charities",
       "address": "4680 Parkway Dr., Suite 400, Wakanda 00054",
       "phone": "(123) 333-4444",
-      "fax": "(111) 222-3333",
       "website": "",
-      "image": "dawnCharities-logo.png",
-      "membership": "np"
+      "image": "dawnCharities-logo.webp",
+      "membership": "non-profit"
     }
   }
