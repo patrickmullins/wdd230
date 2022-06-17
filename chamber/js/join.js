@@ -27,8 +27,8 @@ window.onresize = () => {
     }
 };
 
-document.querySelector('#copyrightYear').innerHTML = year;
 let dateElement = document.querySelector('#date');
+document.querySelector('#copyrightYear').innerHTML = year;
 // gets current day / month
 let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
 'August', 'September', 'October','November','December'];
