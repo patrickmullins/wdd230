@@ -29,7 +29,7 @@ fetch(apiURL)
   const icon        = data.weather[0].icon.toString();
 
   (async () => {
-    const imageUrl = 'http://openweathermap.org/img/wn/' + icon + '@4x.png';
+    const imageUrl = 'https://openweathermap.org/img/wn/' + icon + '@4x.png';
     const response = await fetch(imageUrl);
     const imageBlob = await response.blob();
     const reader = new FileReader();
