@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+footer {
+	display: grid;
+	font-size: 0.8em;
+	background-color: rgb(178, 202, 216);
+	padding: 1.5em;
+	text-align: center;
+	bottom: 0;
+}
+
+h1 {
+	text-shadow: rgb(178, 202, 216) 1px 0 10px;
+}

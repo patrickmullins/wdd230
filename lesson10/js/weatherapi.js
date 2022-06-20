@@ -12,8 +12,10 @@ fetch(url)
     document.querySelector("#current-temp").textContent = data.main.temp;
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     const desc = data.weather[0].description;
+    
+    document.querySelector("#icon-src").textContent = iconsrc;
 		document.querySelector("#weathericon").setAttribute("src", iconsrc);
 		document.querySelector("#weathericon").setAttribute("alt", desc);
 		document.querySelector("figcaption").textContent = desc;
-   
+    
   });
