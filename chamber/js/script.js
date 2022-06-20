@@ -20,9 +20,9 @@ window.onresize = () => {
         mainNav.classList.remove()
     }
 };
-// Chamber meet and greet message
+
 if (weekDay != 1 && weekDay != 2) {
-    document.getElementById('msg').style.display = 'none';
+    document.querySelector('#msg').style.display = 'none';
 }
 // Footer year and last modified update
 
