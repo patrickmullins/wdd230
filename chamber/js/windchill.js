@@ -4,7 +4,7 @@ fetch(apiURL)
 .then(response => response.json())
 .then(data => {
   const tempF     = Math.round(data.main.temp);
-  const condition = data.weather[0].main;
+  const condition = data.weather[0].description;
   const wSpeed    = data.wind.speed;
 
   if (wSpeed > 3) {
