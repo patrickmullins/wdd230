@@ -218,5 +218,16 @@
             margin-right: 10%;
             margin-left: 10%;
         }
+        .contact {
+            text-align: justify;
+            padding-left: 25px;
+            padding-right: 10px;
+        }
+        .mappy{
+            grid-column: 3;
+            grid-row: 1;
+            padding-top: 80px;
+            Padding-left: 23px;
+        }
         
     }

@@ -130,7 +130,8 @@
     .mappy{
         grid-column: 3;
         grid-row: 1;
-        padding-top: 150px;
+        padding-top: 100px;
+        Padding-left: 10px;
     }
     .bus-link {
         font-size: 1.1em;
