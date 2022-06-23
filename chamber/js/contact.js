@@ -1,5 +1,5 @@
 // Create directors' contacts
-fetch('https://patrickmullins.github.io/wdd230/chamber/data/contact.json')
+fetch('/chamber/data/contact.json')
     .then(response => response.json(),)
     .then (data => {
         let cardNum = 0;
@@ -15,7 +15,7 @@ fetch('https://patrickmullins.github.io/wdd230/chamber/data/contact.json')
             // Add image content
             const path = data.directors[i].image;
             if (path != '') {
-                const imgUrl = 'https://patrickmullins.github.io/wdd230/chamber/images' + path;
+                const imgUrl = '/chamber/images/' + path;
                 (async () => {
                     const response = await fetch(imgUrl);
                     const imageBlob = await response.blob();
@@ -27,7 +27,6 @@ fetch('https://patrickmullins.github.io/wdd230/chamber/data/contact.json')
                     };
                 })();
             }
-            // img.src = 'https://via.placeholder.com/300';
             img.alt = data.directors[i].name + 'portrait image';
             // name & email
             nameB.innerHTML = data.directors[i].name;

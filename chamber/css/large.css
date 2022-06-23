@@ -219,9 +219,11 @@
             margin-left: 10%;
         }
         .contact {
+            grid-column: 3;
+            grid-row: 1;
             text-align: justify;
             padding-left: 25px;
-            padding-right: 10px;
+            padding-top: 40px;
         }
         .mappy{
             grid-column: 3;

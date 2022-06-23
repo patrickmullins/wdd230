@@ -2,23 +2,23 @@
   "directors": [
     {
       "name": "Joel Abe",
-      "email": "(143) 229-3600",
-      "image": "Gardenity-logo.webp"
+      "email": "JoelAbe@email.com",
+      "image": "pexels-simon-robben-614810.webp"
     },
    {
       "name": "Hans Stenger",
-      "email": "(123) 460-6428",
-      "image": "Gardenity-logo.webp"
+      "email": "HansStenger@email.com",
+      "image": "pexels-pixabay-220453.webp"
     },
      {
       "name": "Antonina Michael",
-      "email": "(111) 204-2000",
-      "image": "Gardenity-logo.webp"
+      "email": "AntoniaMichael@email.com",
+      "image": "pexels-hannah-nelson-1065084.webp"
     },
     {
       "name": "Amilia Fedorov",
-      "email": "(123) 298-3000",
-      "image": "Gardenity-logo.webp"
+      "email": "AmiliaFedorov@email.com",
+      "image": "pexels-andrea-piacquadio-762020.webp"
     }
   ]
 }
