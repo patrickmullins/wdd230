@@ -1,22 +1,24 @@
 {
-    "business1": {
+  "directors": [
+    {
       "name": "Joel Abe",
-      "address": "6678 Tri Way Dr. Wakanda 00047",
-      "phone": "(143) 229-3600"
+      "email": "(143) 229-3600",
+      "image": "Gardenity-logo.webp"
     },
-    "business2": {
+   {
       "name": "Hans Stenger",
-      "address": "9334 Union Centre Blvd West Wakanda 00048",
-      "phone": "(123) 460-6428"
+      "email": "(123) 460-6428",
+      "image": "Gardenity-logo.webp"
     },
-    "business3": {
+     {
       "name": "Antonina Michael",
-      "address": "7470 wakanda Road, Wakanda 00049",
-      "phone": "(111) 204-2000"
+      "email": "(111) 204-2000",
+      "image": "Gardenity-logo.webp"
     },
-    "business4": {
+    {
       "name": "Amilia Fedorov",
-      "address": "7700 University Drive West Wakanda 00048",
-      "phone": "(123) 298-3000"
+      "email": "(123) 298-3000",
+      "image": "Gardenity-logo.webp"
     }
+  ]
 }
