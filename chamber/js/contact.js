@@ -1,5 +1,5 @@
 // Create directors' contacts
-fetch('https://patrickmullins.github.io/wdd230/chamber/js/contact.json')
+fetch('https://patrickmullins.github.io/wdd230/chamber/data/contact.json')
     .then(response => response.json(),)
     .then (data => {
         let cardNum = 0;
