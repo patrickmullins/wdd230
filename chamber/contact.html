@@ -41,24 +41,28 @@
             <h2 class="directors-headline">Board of Directors</h2>
             <div class="directors-contacts"></div>
             <h2 class="contact-headline">Contact us</h2>
-            <form class="inquiry-form">
-                <label for="fname">First name:</label>
-                <input class="contact-input" id="fname" name="fname" type="text">
+            <form method=get action="thankYou.html">
+                <label for="fname">First name: <span class="required">*</span></label>
                 
-                <label for="lname">Last name:</label>
-                <input class="contact-input" id="lname" name="lname" type="text">
+                <td>
+                    <input class="contact-input" type="text" name="fname"
+                    id="fname" minlength="3" required />
+                </td>
+                <label for="lname">Last name:<span class="required">*</span></label>
+                <input class="contact-input" id="lname" name="lname" type="text" minlength="3" required>
                 
-                <label for="subject">Subject: </label>
-                <input id="subject" name="subject" type="text" class="contact-input">
+                <label for="subject">Subject:<span class="required">*</span></label>
+                <input id="subject" name="subject" type="text" class="contact-input" required>
                 
-                <label for="callback-email">Your email: </label>
+                <label for="callback-email">Your email:<span class="required">*</span></label>
                 <input id="contact-email" name="contact-email" class="contact-input"
-                    type="email" placeholder="johndoe@myemail.com">
+                    type="email" placeholder="johndoe@myemail.com" required>
             
-                <label for="message">Message</label>
-                <textarea class="contact-input" id="message" name="message"></textarea>
-    
-                <input class="contact-submit" type="submit" value="Submit">
+                <label for="message">Message<span class="required">*</span></label>
+                <textarea class="contact-input" id="message" name="message"  placeholder="enter minimum 25 characters" minlength="25" required></textarea>
+            <div class="subut">
+                <input class="submit" type="submit" value="Submit">
+            </div>
             </form>
         </main>
     <footer class="home-footer">

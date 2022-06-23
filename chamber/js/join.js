@@ -13,6 +13,13 @@ const dateTime = {
 };
 document.querySelector('.time-loaded').value = dateTime;
 
+let dateElement = document.querySelector('#date');
+document.querySelector('#copyrightYear').innerHTML = year;
+// gets current day / month
+let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
+'August', 'September', 'October','November','December'];
+let daysOfWeek = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+dateElement.innerHTML = daysOfWeek[weekDay] + ', ' + monthDay + ' ' + months[month] + ' ' + year;
 
 let sayThankYou = () => {
     window.open('https://patrickmullins.github.io/wdd230/chamber/thankYou.html');
@@ -26,11 +33,3 @@ window.onresize = () => {
         mainNav.classList.remove()
     }
 };
-
-let dateElement = document.querySelector('#date');
-document.querySelector('#copyrightYear').innerHTML = year;
-// gets current day / month
-let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
-'August', 'September', 'October','November','December'];
-let daysOfWeek = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-dateElement.innerHTML = daysOfWeek[weekDay] + ', ' + monthDay + ' ' + months[month] + ' ' + year;
