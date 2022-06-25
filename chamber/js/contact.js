@@ -27,7 +27,7 @@ window.onresize = () => {
 
 
 // Create directors' contacts
-fetch('/chamber/data/contact.json')
+fetch('chamber/data/contact.json')
     .then(response => response.json(),)
     .then (data => {
         let cardNum = 0;
