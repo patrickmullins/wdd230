@@ -79,5 +79,3 @@ fetch('data/contact.json')
     let sayThankYou = () => {
         window.open('https://patrickmullins.github.io/wdd230/chamber/thankYou.html');
     };
-    
-    document.querySelector('.join-submit-btn').addEventListener('click', sayThankYou);
