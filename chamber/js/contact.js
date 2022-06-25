@@ -43,7 +43,7 @@ fetch('data/contact.json')
             // Add image content
             const path = data.directors[i].image;
             if (path != '') {
-                const imgUrl = 'chamber/images/' + path;
+                const imgUrl = 'images/' + path;
                 (async () => {
                     const response = await fetch(imgUrl);
                     const imageBlob = await response.blob();
