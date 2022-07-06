@@ -27,7 +27,7 @@ window.onresize = () => {
 
 
 // Create directors' contacts
-fetch('/chamber/data/contact.json')
+fetch('data/contact.json')
     .then(response => response.json(),)
     .then (data => {
         let cardNum = 0;
@@ -43,7 +43,7 @@ fetch('/chamber/data/contact.json')
             // Add image content
             const path = data.directors[i].image;
             if (path != '') {
-                const imgUrl = '/chamber/images/' + path;
+                const imgUrl = 'images/' + path;
                 (async () => {
                     const response = await fetch(imgUrl);
                     const imageBlob = await response.blob();
@@ -79,5 +79,3 @@ fetch('/chamber/data/contact.json')
     let sayThankYou = () => {
         window.open('https://patrickmullins.github.io/wdd230/chamber/thankYou.html');
     };
-    
-    document.querySelector('.join-submit-btn').addEventListener('click', sayThankYou);
