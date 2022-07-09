@@ -32,7 +32,7 @@
 .link-list a {
     display: block;
     padding: 0.75rem;
-    text-align: left;
+    text-align: right;
     text-decoration: none;
     font-weight: 700;
 }
