@@ -1,0 +1,24 @@
+{
+    "temples": [
+      {
+        "name": "Washington DC Temple",
+        "address": "",
+        "image": "washington-dc-temple.webp"
+      },
+       {
+        "name": "Raleigh North Carolina Temple",
+        "address": "574 Bryan Dr Apex NC 27502",
+        "image": "Raleigh-nc-temple.webp"
+      },
+      {
+        "name": "Orlando Florida Temple",
+        "address": "9000 Windy Ridge Rd Windermere FL 34786",
+        "image": "orlando-temple.webp"
+      },
+      {
+        "name": "Rexburg Idaho Temple",
+        "address": "750 South 2nd East Rexburg, Idaho 83440",
+        "image": "rexburg-temple.webp"
+      }
+    ]
+  }
