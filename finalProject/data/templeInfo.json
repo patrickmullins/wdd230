@@ -2,7 +2,7 @@
     "temples": [
       {
         "name": "Washington DC Temple",
-        "address": "",
+        "address": "9900 Stoneybrook Drive Kensington, Maryland  20895",
         "image": "washington-dc-temple.webp"
       },
        {
@@ -21,4 +21,4 @@
         "image": "rexburg-temple.webp"
       }
     ]
-  }
+}
