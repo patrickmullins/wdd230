@@ -55,6 +55,52 @@
     padding: 5px;
     border-radius: 3px;
 }
+/* Directory */
+.bus-cards-box {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.bus-cards-box {
+    padding: 2px 16px;
+}
+.bus-list-box {
+    display: none;
+}
+.bus-li {
+    margin: 20px 0 20px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px 5px 0 0;
+    margin: 1em 1em 1em;
+    text-align: center;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.info-box {
+    padding: 15px;
+}
+.bus-logo {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.bus-link:hover {
+    color: red;
+}
+.view-buttons {
+    text-align: center;
+    text-align: center;
+    margin: 1.5em 0 1.5em;
+}
+.card-icon, .list-icon {
+    justify-content: center;
+    width: 35px;
+}
+.bus-list-box > div:nth-child(odd){
+    background: #efefef;
+}
 .home-footer {
     display: flex;
     flex-direction: column;
