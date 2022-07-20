@@ -161,7 +161,7 @@ h1, h2, h4, h5, h6 {
 }
 .main-box {
     opacity: 99%;
-    background-color: #67aaf9;
+    background-color: goldenrod;
     margin: 10px 0 10px 0;
     padding: 5px;
     border-radius: 3px;
@@ -235,6 +235,9 @@ h1, h2, h4, h5, h6 {
     border-radius: 3px;
     
 }
+.mainBtn{
+    text-align: center;
+}
 #logo-footer {
     margin-top: 20px;
     border-radius: 3px;
@@ -243,7 +246,7 @@ h1, h2, h4, h5, h6 {
     text-align: center;
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
+    background-color: goldenrod;
 }
 .bottom {
     text-align: center;
@@ -380,7 +383,7 @@ textarea {
 }
 .join-main {
     margin-top: 15px;
-    background-color: #5899e2;
+    background-color: lightgrey;
 }
 .join-main hr {
     border: .5px solid black;
