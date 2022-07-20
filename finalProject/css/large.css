@@ -103,7 +103,7 @@
         #join {
             margin-left: 0;
             display: block;
-            grid-area: 3/1/4/2;
+            text-align: center;
         }
         #events {
             margin-left: 0;
@@ -114,6 +114,11 @@
             margin-left: 0;
             grid-column: 1/2;
             grid-row: 2/3;
+        }
+        .hero-image {
+            max-width: 100%;
+            object-fit: cover;
+            display: inline-flex
         }
         .hero-img-1-large {
             display: block;

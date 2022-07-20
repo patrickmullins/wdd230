@@ -123,6 +123,7 @@ h1, h2, h4, h5, h6 {
 #home-main, .contact-main {
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
 }
 
 #weather {
@@ -146,7 +147,9 @@ h1, h2, h4, h5, h6 {
     text-align: center;
 }
 #join {
-    display: none;
+        margin-left: 0;
+        display: block;
+        text-align: center;
 }
 .photo-box {
     position: relative;
@@ -165,13 +168,14 @@ h1, h2, h4, h5, h6 {
 }
 .hero-image {
     max-width: 100%;
+    max-height: 100%;
     border-radius: 3px;
 }
 .hero-img-1, .hero-img-2, .hero-img-1-large {
     display: none;
 }
 .call-to-action {
-    position: absolute;
+    position: flex;
     font-size: 1.3em;
     bottom: 16px;
     left: 16px;
@@ -182,8 +186,18 @@ h1, h2, h4, h5, h6 {
     text-align: center;
 }
 .weather-main-content {
-    display: flex;
+    display: block;
+    grid-area: 1fr 1fr;
     justify-content: space-around;
+}
+.today-weather{
+    font-weight: bold;
+}
+.weather-card {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
 }
 .weather-description {
     text-align: center;
@@ -225,8 +239,11 @@ h1, h2, h4, h5, h6 {
     margin-top: 20px;
     border-radius: 3px;
 }
-#contact {
+.contact-us {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
 }
 .bottom {
     text-align: center;
@@ -369,8 +386,8 @@ textarea {
     border: .5px solid black;
 }
 .service-main {
-    display: block;
-    grid-template-columns: 1fr 1fr;
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr;
     list-style: none;
-
 }

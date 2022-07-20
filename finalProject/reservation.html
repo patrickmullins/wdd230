@@ -22,7 +22,6 @@
         </ul>
     </nav>
     </header>
-  <main>
     <main class="join-main">
       <form method=get action="thankyou.html">
           <table>
@@ -84,24 +83,24 @@
               </tr>
               <tr>
                 <td>
-                    <label class="date-label" for="date">
+                    <label class="date-label">
                         Arrival Date:<span class="required">*</span>
                     </label>
                 </td>
                 <td>
-                    <input class="date-input" type="date" name="date-input"
-                    id="date-input" minlength="10" required />
+                    <input class="date-input" type="date" name="date"
+                     required />
                 </td>
             </tr>
             <tr>
               <td>
-                  <label class="date-label" for="date">
+                  <label class="date-label">
                       Departure Date:<span class="required">*</span>
                   </label>
               </td>
               <td>
-                  <input class="date-input" type="date" name="date-input"
-                  id="date-input" minlength="10" required />
+                  <input class="date-input" type="date" name="date"
+                   required />
               </td>
           </tr>
               <tr>
@@ -112,11 +111,11 @@
                   </td>
                   <td>
                       <select class="mem-lvl-select join-label" name="membership"
-                          id="membership" required>
-                          <option value="Washington DC">Washington DC</option>
-                          <option value="Orlando FL">Orlando FL</option>
-                          <option value="Raleigh NC">Raleigh NC</option>
-                          <option value="Rexburg ID">Rexburg ID</option>
+                          id="membership" size="4" required>
+                          <option value="Washington DC"> Washington DC</option>
+                          <option value="Orlando FL"> Orlando FL</option>
+                          <option value="Raleigh NC"> Raleigh NC</option>
+                          <option value="Rexburg ID"> Rexburg ID</option>
                       </select>
                   </td>
               </tr>
@@ -140,7 +139,7 @@
                 
                 <td>
                     <select class="room-select" name="roomType"
-                        id="roomType" required>
+                        id="roomType" size="4" required>
                         <option value="Single">Single</option>
                         <option value="Double">Double</option>
                         <option value="Queen">Queen</option>
@@ -165,7 +164,7 @@
                     </label>
                 </td>
                 <td>
-                    <textarea class="desc" name="desc" id="desc"></textarea>
+                    <textarea class="desc" name="desc1" id="desc2"></textarea>
                 </td>
             </tr>
           </table>
