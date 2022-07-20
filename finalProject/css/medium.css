@@ -1,0 +1,48 @@
+@media only screen and (min-width: 800px) {
+    .welcome, .events-title, .weather-title, .temp .weather-description,
+        .spotlight-title-1, .spotlight-title-2, .spotlight-title-3, .new-title {
+        font-size: 1.7em;
+    }
+    .join-label, .required-desc, .join-submit-btn {
+        font-size: 1.3em;
+    }
+    p, li, a, button, img {
+        font-size: 1.6em;
+    }
+    header {
+        align-items: center;
+    }
+    .social-img {
+        width: 40px;
+    }
+    .logo {
+        height: auto;
+        width: auto;
+    }
+    .main-header {
+        font-size: 2.2em;
+    }
+    .main-subheader {
+        font-size: 1.6em;
+        margin: auto;
+        width: fit-content;
+    }
+    .hamburger-img {
+        width: 35px;
+    }
+    .contact-us{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color: antiquewhite;
+    }
+    .home-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        
+    }
+}

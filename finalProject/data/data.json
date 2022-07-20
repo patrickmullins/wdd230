@@ -3,14 +3,14 @@
         "name": "Washington DC Temple",
         "address": "9900 Stoneybrook Drive Kensington, Maryland  20895",
         "image": "washington-dc-temple.webp",
-        "hours": "Hours: closed for renovations",
+        "hours": "Closed for renovations",
         "info": "Standing on sprawling grounds about 10 miles north of the United States Capitol, the gold-spired Washington D.C. Temple is a well-known landmark along the Capital Beltway in Kensington, Maryland. The beauty of this soaring edifice is enhanced by a reflection pond near the visitors' center and a spouting water feature at the temple entrance."
       },
       "temple2":{
         "name": "Raleigh North Carolina Temple",
         "address": "574 Bryan Dr Apex NC 27502",
         "image": "Raleigh-nc-temple.webp",
-        "hours": " ",
+        "hours": "Hours: by appointment only ",
         "info": "The Raleigh North Carolina Temple was the first temple built in North Carolina."
 
       },
@@ -18,7 +18,7 @@
         "name": "Orlando Florida Temple",
         "address": "9000 Windy Ridge Rd Windermere FL 34786",
         "image": "orlando-temple.webp",
-        "hours": " ",
+        "hours": "Hours: by appointment only ",
         "info": "The Orlando Florida Temple was the first temple built in Florida. The Orlando Florida Temple sits on a knoll overlooking a chain of lakes on the edge of the Orlando suburb of Windermere in an area described as one of Florida's most beautiful locations. The temple is characterized by its white exterior, graceful columns, arched windows, and delightful water features. Palms trees and shrubs are planted generously across the temple grounds that are open to the public."
 
       },
@@ -26,7 +26,7 @@
         "name": "Rexburg Idaho Temple",
         "address": "750 South 2nd East Rexburg, Idaho 83440",
         "image": "rexburg-temple.webp",
-        "hours": " ",
+        "hours": "Hours: by appointment only ",
         "info": "Adjacent to the Brigham Young University–Idaho campus, the five-story Rexburg Idaho Temple soars high above its hillside location—creating a striking landmark visible for miles along the Highway 20 corridor. It is the finest, most notable building in this rural community. West of the temple lies a beautiful garden area open to the public for quiet strolls or moments of reflection."
 
       }

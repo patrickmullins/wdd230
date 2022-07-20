@@ -11,7 +11,7 @@
     </head>
   <body>
     <header>
-      <h2>The Temple Inn & Suites</h2>
+        <h2 class="home-header">The Temple Inn & Suites</h2>
       <nav class='top-bar-nav'>
         <ul class="link-list">
             <li><a class='hamburger'> <span> &#9776; </span> </a></li>
@@ -24,7 +24,7 @@
     </header>
   <main>
     <main class="join-main">
-      <form method=get action="thankYou.html">
+      <form method=get action="thankyou.html">
           <table>
               <tr>
                   <td>
@@ -49,6 +49,17 @@
                   </td>
               </tr>
               <tr>
+                <td>
+                    <label class="join-label join-label" for="lname">
+                        Home State or Country:<span class="required">*</span>
+                    </label>
+                </td>
+                <td>
+                    <input class="country-input" type="text" name="country"
+                    id="Country" required>
+                </td>
+            </tr>
+              <tr>
                   <td>
                       <label class="join-label join-label" for="email">
                           Email address:<span class="required">*</span>
@@ -59,17 +70,6 @@
                       name="email" placeholder="johndoe@outlook.net"
                       id="email" required>
                   </td>
-              </tr>
-              <tr>
-                <td>
-                    <label class="join-label join-label" for="email">
-                        Number of Guests:<span class="required">*</span>
-                    </label>
-                </td>
-                <td>
-                    <input class="guestnum-input" type="number"
-                    name="number" id="number" required min="1" max="12">
-                </td>
               </tr>
               <tr>
                   <td>
@@ -122,10 +122,22 @@
               </tr>
               <tr>
                 <td>
-                    <label class="room-select " for="roomType">
-                        Type of rooms:<span class="required">*</span>
+                    <label class="join-label join-label" for="email">
+                        Number of rooms:<span class="required">*</span>
                     </label>
                 </td>
+                <td>
+                    <input class="guestnum-input" type="number"
+                    name="number" id="number" required min="1" max="12">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <label class="room-select " for="roomType">
+                        Type of Rooms:<span class="required">*</span>
+                    </label>
+                </td>
+                
                 <td>
                     <select class="room-select" name="roomType"
                         id="roomType" required>
@@ -136,6 +148,26 @@
                     </select>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <label class="join-label join-label" for="desc">
+                        Special Accomodations:
+                    </label>
+                </td>
+                <td>
+                    <textarea class="desc" name="desc" id="desc"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="join-label join-label" for="desc">
+                        Comments:
+                    </label>
+                </td>
+                <td>
+                    <textarea class="desc" name="desc" id="desc"></textarea>
+                </td>
+            </tr>
           </table>
           <div class="subut">
               <input type="submit" value="Submit information">
@@ -143,13 +175,15 @@
           <p class="required-desc"><span class="required">*</span> <b>Required fields</b></p>
       </form>
       <hr>
-  <h2>Reservation page for WDD230 Final Project</h2>
   <ul>
   </ul>
   </main>
   <footer>
-    <p>&copy; <span class= "one"></span> Temple Inn & Suites | BYU-Idaho | WDD-230 Final Project</p>
-    <div class="two"></div>
+    <section class="home-footer">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.404837033006!2d-77.09772584804577!3d38.98325594938162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1658203731413!5m2!1sen!2sus" 
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p>&copy; <span class= "one"></span> Temple Inn & Suites | Patrick Mullins | WDD 230 Final Project</p>
+        </section>
   </footer>
   <script defer src="js/script.js"></script>
   </body>
