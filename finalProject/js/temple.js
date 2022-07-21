@@ -1,7 +1,8 @@
 
 const cardsBox  = document.querySelector('.bus-cards-box');
 const listBox   = document.querySelector('.bus-list-box');
-
+const lastModified = document.lastModified;
+document.querySelector('#modified').innerHTML = lastModified;
 
 fetch('data/data.json')
     .then(response => response.json())
