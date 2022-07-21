@@ -174,20 +174,11 @@ h1, h2, h4, h5, h6 {
 .hero-img-1, .hero-img-2, .hero-img-1-large {
     display: none;
 }
-.call-to-action {
-    position: flex;
-    font-size: 1.3em;
-    bottom: 16px;
-    left: 16px;
-    border-radius: 3px;
-}
-
 .weather-title {
     text-align: center;
 }
 .weather-main-content {
     display: block;
-    grid-area: 1fr 1fr;
     justify-content: space-around;
 }
 .today-weather{
@@ -195,7 +186,6 @@ h1, h2, h4, h5, h6 {
 }
 .weather-card {
     display: flex;
-    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
 }
